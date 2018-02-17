@@ -1,5 +1,22 @@
+#displays {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+  background-color: whitesmoke;
+}
+
 canvas {
     display: block;
-    margin: auto;
     border: 1px solid black;
+    margin: auto;
+
+}
+
+#start {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  bottom: 50%;
+  left: 0%;
 }
