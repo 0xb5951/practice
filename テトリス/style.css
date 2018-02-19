@@ -1,22 +1,37 @@
 #displays {
   position: relative;
   margin: 0 auto;
-  width: 400px;
-  height: 600px;
-  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 
-canvas {
+canvas#main {
     display: block;
-    border: 1px solid black;
-    margin: auto;
+    border: 5px solid black;
+    margin: 150px auto 0;
+    background-color: whitesmoke;
+}
 
+canvas#next {
+    display: block;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    margin: 0 90% 0% 0;
 }
 
 #start {
   position: absolute;
   width: 180px;
   height: 50px;
-  bottom: 50%;
-  left: 0%;
+  top: 40%;
+  left: 2.5%;
+}
+
+#reset {
+  position: absolute;
+  width: 180px;
+  height: 50px;
+  top: 50%;
+  left: 2.5%;
 }

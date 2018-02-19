@@ -6,10 +6,12 @@
     </head>
     <body>
         <audio id="clearsound" src="pop.ogg" preload="auto"></audio>
-        <!-- <div id="displays"> -->
+        <div id="displays">
         <button id="start" onclick="newGame()">クリックでスタート</button>
-        <canvas width='400' height='600'></canvas>
-      <!-- </div> -->
+        <button id="reset" onclick="reset()">リセットボタン</button>
+        <canvas id='main' width='400' height='600'>メイン</canvas>
+        <canvas id='next' width='200' height="200">ネクスト</canvas>
+      </div>
         <script src='tetris.js'></script>
         <script src='controller.js'></script>
         <script src='render.js'></script>

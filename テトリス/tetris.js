@@ -191,3 +191,10 @@ function newGame() {
   lose = false;  // 負けフラッグ
   interval = setInterval( tick, 250 );  // 250ミリ秒ごとにtickという関数を呼び出す
 }
+
+function reset(){
+  clearInterval(interval); //ゲームタイマをクリア
+  init(); //盤面初期化
+  lose = false; //負けフラッグをオフ
+  current = 0;
+}
