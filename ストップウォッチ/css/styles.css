@@ -1,0 +1,45 @@
+body{
+  font-family: 'Courier New', sans-serif;
+  font-size: 14px;
+  background: #CCC;
+}
+
+.container{
+  margin: 20px auto;
+  width: 270px;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+#timer{
+  background: #ddd;
+  height: 100px;
+  font-size: 40px;
+  line-height: 100px;
+  margin-bottom: 15px;
+}
+
+.btn{
+  cursor: pointer;
+  background: #ddd;
+  height: 40px;
+  font-weight: bold;
+  width: 80px;
+  line-height: 40px;
+  float: left;
+  user-select: none;
+}
+
+.btn + .btn {
+  margin-left: 15px;
+}
+
+.control {
+  overflow: hidden;
+}
+
+/*  押すことができないボタンを表す*/
+.cantPush {
+ opacity: 0.7;
+}
